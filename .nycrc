@@ -1,0 +1,7 @@
+{
+  "extension": [".ts"],
+  "exclude": ["coverage", "node_modules"],
+  "reporter": ["text-summary", "html"],
+  "all": true,
+  "temp-dir": "./coverage/.nyc_output"
+}

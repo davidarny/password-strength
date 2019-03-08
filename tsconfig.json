@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "commonjs",
+    "strict": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "paths": { "*": ["src/lib/*"] }
+  },
+  "include": ["src/**/*", "main.ts"],
+  "exclude": ["node_modules"]
+}

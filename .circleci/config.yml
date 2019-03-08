@@ -1,0 +1,45 @@
+version: 2
+jobs:
+    build:
+        working_directory: ~/devel
+
+        docker:
+            - image: circleci/node:10
+
+        steps:
+            - run:
+                  name: Update System Dependencies
+                  command: |
+                      sudo apt-get update
+                      sudo apt-get upgrade -y
+
+            - checkout
+
+            - restore_cache:
+                  name: Restore Yarn Package Cache
+                  keys:
+                      - v1-dependencies-{{ checksum "yarn.lock" }}
+                      # fallback to using the latest cache if no exact match is found
+                      - v1-dependencies-
+
+            - run:
+                  name: Install Dependencies
+                  command: yarn install --frozen-lockfile
+
+            - save_cache:
+                  name: Save Yarn Package Cache
+                  paths:
+                      - ~/.cache/yarn
+                  key: v1-dependencies-{{ checksum "yarn.lock" }}
+
+            - run:
+                  name: Run Tests
+                  command: yarn run coverage
+
+            - store_test_results:
+                  path: coverage
+                  prefix: coverage
+
+            - store_artifacts:
+                path: coverage
+                prefix: coverage
