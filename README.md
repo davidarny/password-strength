@@ -6,7 +6,7 @@
 
 Calculates password strength based on bunch of [rules](src/lib/rules.ts)
 
-### Installing
+## Installing
 
 ```bash
 yarn install
@@ -26,12 +26,10 @@ yarn test
 yarn run coverage
 ```
 
-## Built With
+## Built with
 
 -   [Node.js](https://nodejs.org/en/)
 -   [TypeScript](https://www.typescriptlang.org/)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
