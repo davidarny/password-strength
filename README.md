@@ -8,6 +8,7 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/DavidArutiunian/password-strength.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/DavidArutiunian/password-strength.svg)
 ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/DavidArutiunian/password-strength.svg)
+[![TLOC](https://tokei.rs/b1/github/DavidArutiunian/password-strength)](https://github.com/DavidArutiunian/password-strength)
 
 Calculates password strength based on bunch of [rules](src/lib/rules.ts)
 
