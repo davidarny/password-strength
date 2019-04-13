@@ -1,8 +1,12 @@
 # PasswordStrength module
 
 [![CircleCI](https://circleci.com/gh/DavidArutiunian/password-strength/tree/master.svg?style=svg)](https://circleci.com/gh/DavidArutiunian/password-strength/tree/master)
+[![David](https://img.shields.io/david/DavidArutiunian/password-strength.svg)](https://github.com/DavidArutiunian/password-strength)
 [![GitHub license](https://img.shields.io/github/license/DavidArutiunian/password-strength.svg)](https://github.com/DavidArutiunian/password-strength/blob/master/LICENSE.md)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
+![GitHub top language](https://img.shields.io/github/languages/top/DavidArutiunian/password-strength.svg)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/DavidArutiunian/password-strength.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/DavidArutiunian/password-strength.svg)
 
 Calculates password strength based on bunch of [rules](src/lib/rules.ts)
 
