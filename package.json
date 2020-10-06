@@ -11,7 +11,7 @@
     "coverage": "nyc mocha --require tsconfig-paths/register --require ts-node/register --require source-map-support/register --recursive src/test/**/*.ts"
   },
   "dependencies": {
-    "@types/chai": "^4.2.12",
+    "@types/chai": "^4.2.13",
     "@types/mocha": "^8.0.3",
     "@types/node": "^14.11.4",
     "chai": "^4.2.0",
