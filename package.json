@@ -20,7 +20,7 @@
     "nyc": "^15.1.0",
     "source-map-support": "^0.5.21",
     "ts-node": "^10.7.0",
-    "tsconfig-paths": "^3.9.0",
+    "tsconfig-paths": "^3.14.1",
     "typescript": "^4.6.3"
   },
   "devDependencies": {
